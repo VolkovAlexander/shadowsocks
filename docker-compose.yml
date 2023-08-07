@@ -1,8 +1,8 @@
 ---
-version: "3.9"
+version: "3.1"
 
 services:
-  3x-ui:
+  shadowsocks:
     image: ghcr.io/mhsanaei/3x-ui:latest
     container_name: 3x-ui
     hostname: yourhostname
